@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>САЙТ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i" rel="stylesheet" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    
+    
+</head>
+
+<body>
+    <header class="page-header">
+        <button class="page-header__burger burger-flash burger-heder">
+            <span  aria-label="Открыть меню"></span>
+        </button>
+
+        <nav class="menu">  
+            <ul class="menu__list">
+                <li class="menu__link"><a href="#my-work">Услуги</a></li>
+                <li class="menu__link"><a href="#work-example" class="menu__link--active">Портфолио</a></li>
+                <li class="menu__link"><a href="#wrapper-many">Cтоимость</a></li>
+            </ul>
+        </nav>
+
+        <div class="container-phone">
+            <a href="tel:+79176885142" class="page-header__phone">+79176885142</a>
+            <button class="button button--border button--icon">Заказать звонок</button>
+        </div>
+        
+    </header>
+
+    
+    
+    
+    
+    
+    
+    <main>
+        <section class="start-screen clearfloat">
+            <div class="start-screen__desc">
+                <h1 class="h h--1">Дмитрий&nbsp;Алексеев</h1>
+                <span class="start-screen__profession">Frontend-разработчик и веб-верстальщик</span>
+                <a href="#my-work" class="button button--orange">Узнать больше</a>
+                <div class="start-screen__photo photo">
+                    <img src="img/chel2.png" alt="фотография разработчика" class="photo__main">
+                </div>
+            </div>
+
+            <div class="flying-block" aria-hidden="true">
+                <div class="flying-block__element1" >&#60;/&#62;</div>
+                <div class="flying-block__element2" >&#123; &#125;</div>
+                <div class="flying-block__element3" >&lt;div&gt;</div>
+                <div class="flying-block__element4" >#</div>
+                <div class="flying-block__element5" >&lt;div&gt;</div>
+            </div>
+        </section>
+
+       
+       
+       
+       
+        <!-- ******* Что я делаю ******* -->
+        <section class="page-header-wrapper" id="my-work">
+            <div class="my-work">
+                <h2 class = "h h--2">Что я делаю</h2>
+                    <ul class="my-work__list">
+                        <li class="my-work__item my-work__item--1">Вёрстка лендинг–страниц и сайтов любой сложности</li>
+                        <li class="my-work__item my-work__item--2">Адаптивная вёрстка под все браузеры и устройства</li>
+                        <li class="my-work__item my-work__item--3">Frontend–разработка и программирование</li>
+                        <li class="my-work__item my-work__item--4">Исправление и доработка существующей вёрстки</li>
+                    </ul>
+                <a href="#wrapper-many" class="button button--orange">Узнать стоимость</a>
+            </div>
+        </section>
+
+        
+        
+        
+        
+        
+        
+        
+        <!-- Приверы моих работ -->
+        <section class="page-header-wrapper">
+            <div id="work-example">
+                <h2 class="h h--2">Примеры моих работ</h2>
+
+                <div class="slider">
+                    <div class="slider__box">
+                        <img class="slider__pic" src="img/work-example-pic1.png" alt="картинка, пример сайта">
+                        <span class="slider__text">Сайт психолога Веры Антоновой</span>
+                    </div>
+    
+                    <div class="slider__box">
+                        <img class="slider__pic" src="img/work-example-pic2.png" alt="картинка, пример сайта">
+                        <span class="slider__text">Сайт магазина детской одежды</span>
+                   </div>
+    
+                    <div class="slider__box">
+                        <img class="slider__pic" src="img/work-example-pic3.png" alt="картинка, пример сайта">
+                        <span class="slider__text">Сайт магазина «Рыболов»</span>    
+                    </div>
+
+                    <button class="slider__button slider__button--arrowLeft"></button>
+                    
+                    <button class="slider__button slider__button--arrowRight"></button>
+                </div>
+
+                <div class="work-example__radio">
+                    <input name="str" type="radio" checked="checked" />
+                    <input name="str" type="radio" />
+                    <input name="str" type="radio" />
+                </div>
+
+                <button type="button" class="button button--orange">Заказать проект</button>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+        <!--  ---- цены --- -->
+        <section id="wrapper-many">
+            <div class="many">
+                <h2 class="h h--2">
+                    Адаптивная вёрстка под все устройства и браузеры от 1000 рублей
+                    всего за 4 часа.*
+                </h2>
+                <p class="many__explanation">
+                    * Срок и стоимость могут отличаться от заявленных и рассчитываются
+                    индивидуально, в&nbsp;зависимости от сложности&nbsp;задач.
+                </p>
+            </div>
+
+            <div class="fly6">&#60;/&#62;</div>
+            <div class="fly7" aria-hidden="true">&#123; &#125;</div>
+            <div class="fly8" aria-hidden="true">&lt;div&gt;</div>
+            <div class="fly9" aria-hidden="true">#</div>
+            <div class="fly10" aria-hidden="true">&lt;/&gt;</div>
+        </section>
+    
+    </main>
+
+
+
+
+
+
+
+    
+    <!-- <footer>  -->
+    <footer class="footer__menu">
+        <ul class="footer__menu-content">
+            <li><a href="#my-work">Услуги</a></li>
+            <li><a href="#work-example">Портфолио</a></li>
+            <li><a href="#wrapper-many">Cтоимость</a></li>
+        </ul>
+
+        <address class="footer__menu-contacts">
+            <a class="footer__menu-tel" href="tel:+7-917-688-5142" title="Телефон для связи"><span
+                    class="font-icon">&#xe800;</span>&nbsp;&nbsp;+7 (917) 688-51-42</a>
+            <a class="footer__menu-email" href="mailto:logo08@yandex.ru" title="Почта"><span
+                    class="font-icon">&#xf0e0;</span>&nbsp;&nbsp;logo08@yandex.ru</a>
+        </address>
+
+        <div class="footer__menu-link">
+            <button class="button button--border">Заказать звонок</button>
+            <ul class="item-link-share">
+                <li>
+                    <a class="bg-vk" href="#" title="Вконтакте"></a>
+                </li>
+                <li>
+                    <a class="bg-facebook" href="#" title="Фейсбук"></a>
+                </li>
+                <li>
+                    <a class="bg-twitter" href="#" title="Твиттер"></a>
+                </li>
+                <li>
+                    <a class="bg-instagram" href="#" title="Инстограм"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Этот код вынесен за футер, для того, 
+    что-бы не делать дополнительную обертку внутри футера. -->
+    <div class="footer__lower">
+        <span>&#174 Дмитрий Алексеевич, 2019</span>
+    </div>
+
+    <a class="goto-home" href="#">В начало</a>
+</body>
+
+
+</html>
